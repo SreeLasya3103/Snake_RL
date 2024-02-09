@@ -14,4 +14,6 @@ def self_collision(snake_position):
         return 1
     else:
         return 0
-      
+
+## Maximum length of snake before the episode terminates
+MAX_SNAKE_LEN = 15
